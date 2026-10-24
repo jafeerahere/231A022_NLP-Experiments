@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "EN01",
+    "text": "I love this phone. The camera is excellent!",
+    "gold_label": "positive",
+    "category": "English",
+    "language": "English",
+    "meaning": "Clear praise for a product.",
+    "challenge": "Straightforward polarity",
+    "vader_label": "positive",
+    "vader_compound": 0.8478,
+    "vader_positive": 0.577,
+    "vader_neutral": 0.423,
+    "vader_negative": 0.0,
+    "textblob_label": "positive",
+    "textblob_polarity": 0.75,
+    "textblob_subjectivity": 0.8,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "love"
+        ],
+        "polarity": 0.5,
+        "subjectivity": 0.6
+      },
+      {
+        "tokens": [
+          "excellent",
+          "!"
+        ],
+        "polarity": 1.0,
+        "subjectivity": 1.0
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "EN02",
+    "text": "The delivery was fast and the staff were helpful.",
+    "gold_label": "positive",
+    "category": "English",
+    "language": "English",
+    "meaning": "Praise for delivery and staff.",
+    "challenge": "Straightforward polarity",
+    "vader_label": "positive",
+    "vader_compound": 0.4215,
+    "vader_positive": 0.259,
+    "vader_neutral": 0.741,
+    "vader_negative": 0.0,
+    "textblob_label": "positive",
+    "textblob_polarity": 0.2,
+    "textblob_subjectivity": 0.6,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "fast"
+        ],
+        "polarity": 0.2,
+        "subjectivity": 0.6
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "EN03",
+    "text": "This product is terrible and a waste of money.",
+    "gold_label": "negative",
+    "category": "English",
+    "language": "English",
+    "meaning": "Strong dissatisfaction with a product.",
+    "challenge": "Straightforward polarity",
+    "vader_label": "negative",
+    "vader_compound": -0.7096,
+    "vader_positive": 0.0,
+    "vader_neutral": 0.543,
+    "vader_negative": 0.457,
+    "textblob_label": "negative",
+    "textblob_polarity": -0.6,
+    "textblob_subjectivity": 0.5,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "terrible"
+        ],
+        "polarity": -1.0,
+        "subjectivity": 1.0
+      },
+      {
+        "tokens": [
+          "waste"
+        ],
+        "polarity": -0.2,
+        "subjectivity": 0.0
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "EN04",
+    "text": "I hate the slow service and rude staff.",
+    "gold_label": "negative",
+    "category": "English",
+    "language": "English",
+    "meaning": "Complaint about service.",
+    "challenge": "Straightforward polarity",
+    "vader_label": "negative",
+    "vader_compound": -0.7717,
+    "vader_positive": 0.0,
+    "vader_neutral": 0.472,
+    "vader_negative": 0.528,
+    "textblob_label": "negative",
+    "textblob_polarity": -0.46666666666666673,
+    "textblob_subjectivity": 0.6333333333333333,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "hate"
+        ],
+        "polarity": -0.8,
+        "subjectivity": 0.9
+      },
+      {
+        "tokens": [
+          "slow"
+        ],
+        "polarity": -0.30000000000000004,
+        "subjectivity": 0.39999999999999997
+      },
+      {
+        "tokens": [
+          "rude"
+        ],
+        "polarity": -0.3,
+        "subjectivity": 0.6
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "EN05",
+    "text": "The package arrived on Tuesday.",
+    "gold_label": "neutral",
+    "category": "English",
+    "language": "English",
+    "meaning": "Factual delivery date without evaluation.",
+    "challenge": "No explicit opinion",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "EN06",
+    "text": "The phone has a 6 inch screen.",
+    "gold_label": "neutral",
+    "category": "English",
+    "language": "English",
+    "meaning": "Factual screen specification.",
+    "challenge": "No explicit opinion",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "NG01",
+    "text": "This phone is not good.",
+    "gold_label": "negative",
+    "category": "Negation",
+    "language": "English",
+    "meaning": "Negation reverses good.",
+    "challenge": "Negation scope",
+    "vader_label": "negative",
+    "vader_compound": -0.3412,
+    "vader_positive": 0.0,
+    "vader_neutral": 0.624,
+    "vader_negative": 0.376,
+    "textblob_label": "negative",
+    "textblob_polarity": -0.35,
+    "textblob_subjectivity": 0.6000000000000001,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "not",
+          "good"
+        ],
+        "polarity": -0.35,
+        "subjectivity": 0.6000000000000001
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "NG02",
+    "text": "The service is not bad at all.",
+    "gold_label": "positive",
+    "category": "Negation",
+    "language": "English",
+    "meaning": "Understated approval through negated bad.",
+    "challenge": "Litotes",
+    "vader_label": "positive",
+    "vader_compound": 0.431,
+    "vader_positive": 0.322,
+    "vader_neutral": 0.678,
+    "vader_negative": 0.0,
+    "textblob_label": "positive",
+    "textblob_polarity": 0.3499999999999999,
+    "textblob_subjectivity": 0.6666666666666666,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "not",
+          "bad"
+        ],
+        "polarity": 0.3499999999999999,
+        "subjectivity": 0.6666666666666666
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "NG03",
+    "text": "I am not happy with this purchase.",
+    "gold_label": "negative",
+    "category": "Negation",
+    "language": "English",
+    "meaning": "Negated happiness indicates dissatisfaction.",
+    "challenge": "Negation scope",
+    "vader_label": "negative",
+    "vader_compound": -0.4585,
+    "vader_positive": 0.0,
+    "vader_neutral": 0.667,
+    "vader_negative": 0.333,
+    "textblob_label": "negative",
+    "textblob_polarity": -0.4,
+    "textblob_subjectivity": 1.0,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "not",
+          "happy"
+        ],
+        "polarity": -0.4,
+        "subjectivity": 1.0
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "NG04",
+    "text": "I do not hate this movie.",
+    "gold_label": "positive",
+    "category": "Negation",
+    "language": "English",
+    "meaning": "Weak positive stance defined here as absence of dislike.",
+    "challenge": "Negation and label ambiguity",
+    "vader_label": "positive",
+    "vader_compound": 0.4585,
+    "vader_positive": 0.375,
+    "vader_neutral": 0.625,
+    "vader_negative": 0.0,
+    "textblob_label": "positive",
+    "textblob_polarity": 0.4,
+    "textblob_subjectivity": 0.9,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "not",
+          "hate"
+        ],
+        "polarity": 0.4,
+        "subjectivity": 0.9
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "NG05",
+    "text": "The camera is good but the battery is awful.",
+    "gold_label": "negative",
+    "category": "Negation",
+    "language": "English",
+    "meaning": "Final negative clause is treated as the overall judgement.",
+    "challenge": "Contrast and mixed aspects",
+    "vader_label": "negative",
+    "vader_compound": -0.4678,
+    "vader_positive": 0.151,
+    "vader_neutral": 0.541,
+    "vader_negative": 0.309,
+    "textblob_label": "negative",
+    "textblob_polarity": -0.15000000000000002,
+    "textblob_subjectivity": 0.8,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "good"
+        ],
+        "polarity": 0.7,
+        "subjectivity": 0.6000000000000001
+      },
+      {
+        "tokens": [
+          "awful"
+        ],
+        "polarity": -1.0,
+        "subjectivity": 1.0
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "NG06",
+    "text": "The packaging was ugly but the product is excellent.",
+    "gold_label": "positive",
+    "category": "Negation",
+    "language": "English",
+    "meaning": "Final product praise outweighs packaging criticism.",
+    "challenge": "Contrast and mixed aspects",
+    "vader_label": "positive",
+    "vader_compound": 0.5994,
+    "vader_positive": 0.356,
+    "vader_neutral": 0.493,
+    "vader_negative": 0.151,
+    "textblob_label": "positive",
+    "textblob_polarity": 0.15000000000000002,
+    "textblob_subjectivity": 1.0,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "ugly"
+        ],
+        "polarity": -0.7,
+        "subjectivity": 1.0
+      },
+      {
+        "tokens": [
+          "excellent"
+        ],
+        "polarity": 1.0,
+        "subjectivity": 1.0
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "SA01",
+    "text": "Great! The app crashed again and deleted my work.",
+    "gold_label": "negative",
+    "category": "Sarcasm",
+    "language": "English",
+    "meaning": "Great is sarcastic because work was lost.",
+    "challenge": "Sarcasm and context loss",
+    "vader_label": "positive",
+    "vader_compound": 0.6588,
+    "vader_positive": 0.354,
+    "vader_neutral": 0.646,
+    "vader_negative": 0.0,
+    "textblob_label": "positive",
+    "textblob_polarity": 1.0,
+    "textblob_subjectivity": 0.75,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "great",
+          "!"
+        ],
+        "polarity": 1.0,
+        "subjectivity": 0.75
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "SA02",
+    "text": "Wonderful service: only three hours of waiting.",
+    "gold_label": "negative",
+    "category": "Sarcasm",
+    "language": "English",
+    "meaning": "Wonderful is sarcastic criticism of waiting.",
+    "challenge": "Sarcasm and context loss",
+    "vader_label": "positive",
+    "vader_compound": 0.5719,
+    "vader_positive": 0.381,
+    "vader_neutral": 0.619,
+    "vader_negative": 0.0,
+    "textblob_label": "positive",
+    "textblob_polarity": 0.5,
+    "textblob_subjectivity": 1.0,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "wonderful"
+        ],
+        "polarity": 1.0,
+        "subjectivity": 1.0
+      },
+      {
+        "tokens": [
+          "only"
+        ],
+        "polarity": 0.0,
+        "subjectivity": 1.0
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "SA03",
+    "text": "I just love paying for a broken product.",
+    "gold_label": "negative",
+    "category": "Sarcasm",
+    "language": "English",
+    "meaning": "Love is sarcastic dissatisfaction with a broken item.",
+    "challenge": "Sarcasm and context loss",
+    "vader_label": "positive",
+    "vader_compound": 0.2732,
+    "vader_positive": 0.316,
+    "vader_neutral": 0.451,
+    "vader_negative": 0.233,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.04999999999999999,
+    "textblob_subjectivity": 0.5,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "love"
+        ],
+        "polarity": 0.5,
+        "subjectivity": 0.6
+      },
+      {
+        "tokens": [
+          "broken"
+        ],
+        "polarity": -0.4,
+        "subjectivity": 0.4
+      }
+    ],
+    "tools_agree": false,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "SA04",
+    "text": "Fantastic! Another failed payment.",
+    "gold_label": "negative",
+    "category": "Sarcasm",
+    "language": "English",
+    "meaning": "Fantastic is ironic criticism of payment failure.",
+    "challenge": "Sarcasm and context loss",
+    "vader_label": "positive",
+    "vader_compound": 0.1511,
+    "vader_positive": 0.423,
+    "vader_neutral": 0.218,
+    "vader_negative": 0.359,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.6,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "fantastic",
+          "!"
+        ],
+        "polarity": 0.5,
+        "subjectivity": 0.9
+      },
+      {
+        "tokens": [
+          "failed"
+        ],
+        "polarity": -0.5,
+        "subjectivity": 0.3
+      }
+    ],
+    "tools_agree": false,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "SA05",
+    "text": "Thanks for nothing. My order never arrived.",
+    "gold_label": "negative",
+    "category": "Sarcasm",
+    "language": "English",
+    "meaning": "Thanks is part of a negative idiom.",
+    "challenge": "Pragmatics and idiom",
+    "vader_label": "positive",
+    "vader_compound": 0.4404,
+    "vader_positive": 0.326,
+    "vader_neutral": 0.674,
+    "vader_negative": 0.0,
+    "textblob_label": "positive",
+    "textblob_polarity": 0.2,
+    "textblob_subjectivity": 0.2,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "thanks"
+        ],
+        "polarity": 0.2,
+        "subjectivity": 0.2
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "SA06",
+    "text": "Brilliant support. They ignored every message.",
+    "gold_label": "negative",
+    "category": "Sarcasm",
+    "language": "English",
+    "meaning": "Brilliant is sarcastic because support ignored messages.",
+    "challenge": "Sarcasm and context loss",
+    "vader_label": "positive",
+    "vader_compound": 0.6369,
+    "vader_positive": 0.551,
+    "vader_neutral": 0.254,
+    "vader_negative": 0.195,
+    "textblob_label": "positive",
+    "textblob_polarity": 0.9,
+    "textblob_subjectivity": 1.0,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "brilliant"
+        ],
+        "polarity": 0.9,
+        "subjectivity": 1.0
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "IN01",
+    "text": "The food was simply paisa vasool.",
+    "gold_label": "positive",
+    "category": "Indian English",
+    "language": "English with Hindi phrase",
+    "meaning": "Paisa vasool means worth the money in this context.",
+    "challenge": "Regional expression",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.35714285714285715,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "simply"
+        ],
+        "polarity": 0.0,
+        "subjectivity": 0.35714285714285715
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "IN02",
+    "text": "This movie is full timepass and I enjoyed it.",
+    "gold_label": "positive",
+    "category": "Indian English",
+    "language": "Indian English",
+    "meaning": "Timepass is used approvingly alongside explicit enjoyment.",
+    "challenge": "Regional expression with English cue",
+    "vader_label": "positive",
+    "vader_compound": 0.5106,
+    "vader_positive": 0.292,
+    "vader_neutral": 0.708,
+    "vader_negative": 0.0,
+    "textblob_label": "positive",
+    "textblob_polarity": 0.425,
+    "textblob_subjectivity": 0.625,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "full"
+        ],
+        "polarity": 0.35,
+        "subjectivity": 0.55
+      },
+      {
+        "tokens": [
+          "enjoyed"
+        ],
+        "polarity": 0.5,
+        "subjectivity": 0.7
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "IN03",
+    "text": "The service is third class.",
+    "gold_label": "negative",
+    "category": "Indian English",
+    "language": "Indian English",
+    "meaning": "Third class means very poor quality here.",
+    "challenge": "Regional meaning",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "third"
+        ],
+        "polarity": 0.0,
+        "subjectivity": 0.0
+      }
+    ],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "IN04",
+    "text": "The restaurant is overhyped and the food is tasteless.",
+    "gold_label": "negative",
+    "category": "Indian English",
+    "language": "Indian English",
+    "meaning": "Complaint about restaurant quality.",
+    "challenge": "Domain vocabulary",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "negative",
+    "textblob_polarity": -0.6,
+    "textblob_subjectivity": 0.9,
+    "textblob_assessments": [
+      {
+        "tokens": [
+          "tasteless"
+        ],
+        "polarity": -0.6,
+        "subjectivity": 0.9
+      }
+    ],
+    "tools_agree": false,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": true
+  },
+  {
+    "id": "IN05",
+    "text": "We ordered two dosas and one filter coffee.",
+    "gold_label": "neutral",
+    "category": "Indian English",
+    "language": "Indian English",
+    "meaning": "Factual food order without an evaluation.",
+    "challenge": "Cultural words without opinion",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "IN06",
+    "text": "The shop opens after the Diwali holiday.",
+    "gold_label": "neutral",
+    "category": "Indian English",
+    "language": "Indian English",
+    "meaning": "Factual schedule mentioning a festival.",
+    "challenge": "Cultural reference without opinion",
+    "vader_label": "positive",
+    "vader_compound": 0.4019,
+    "vader_positive": 0.31,
+    "vader_neutral": 0.69,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": false,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": true
+  },
+  {
+    "id": "HI01",
+    "text": "Yeh phone bahut accha hai.",
+    "gold_label": "positive",
+    "category": "Hinglish",
+    "language": "Romanized Hindi",
+    "meaning": "This phone is very good.",
+    "challenge": "Romanization and vocabulary coverage",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "HI02",
+    "text": "Battery mast hai aur camera zabardast.",
+    "gold_label": "positive",
+    "category": "Hinglish",
+    "language": "Romanized Hindi",
+    "meaning": "The battery is great and the camera is excellent.",
+    "challenge": "Slang and code-switching",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "HI03",
+    "text": "Delivery bahut bekaar thi.",
+    "gold_label": "negative",
+    "category": "Hinglish",
+    "language": "Romanized Hindi",
+    "meaning": "The delivery was very poor.",
+    "challenge": "Romanization and vocabulary coverage",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "HI04",
+    "text": "Product accha nahi hai.",
+    "gold_label": "negative",
+    "category": "Hinglish",
+    "language": "Romanized Hindi",
+    "meaning": "The product is not good.",
+    "challenge": "Hindi negation in Latin script",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "HI05",
+    "text": "Kal maine ek phone kharida.",
+    "gold_label": "neutral",
+    "category": "Hinglish",
+    "language": "Romanized Hindi",
+    "meaning": "I bought a phone yesterday.",
+    "challenge": "Factual Romanized Hindi",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "HI06",
+    "text": "Order somvaar ko aaya.",
+    "gold_label": "neutral",
+    "category": "Hinglish",
+    "language": "Romanized Hindi",
+    "meaning": "The order arrived on Monday.",
+    "challenge": "Factual Romanized Hindi",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": false,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "DV01",
+    "text": "यह फोन बहुत अच्छा है।",
+    "gold_label": "positive",
+    "category": "Hindi",
+    "language": "Hindi Devanagari",
+    "meaning": "This phone is very good.",
+    "challenge": "Devanagari and vocabulary coverage",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": true,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "DV02",
+    "text": "मुझे यह फिल्म बहुत पसंद आई।",
+    "gold_label": "positive",
+    "category": "Hindi",
+    "language": "Hindi Devanagari",
+    "meaning": "I liked this film very much.",
+    "challenge": "Devanagari and vocabulary coverage",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": true,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "DV03",
+    "text": "यह सामान बहुत खराब है।",
+    "gold_label": "negative",
+    "category": "Hindi",
+    "language": "Hindi Devanagari",
+    "meaning": "This item is very bad.",
+    "challenge": "Devanagari and vocabulary coverage",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": true,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "DV04",
+    "text": "मुझे यह सेवा पसंद नहीं आई।",
+    "gold_label": "negative",
+    "category": "Hindi",
+    "language": "Hindi Devanagari",
+    "meaning": "I did not like this service.",
+    "challenge": "Hindi negation and script",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": true,
+    "vader_correct": false,
+    "textblob_correct": false
+  },
+  {
+    "id": "DV05",
+    "text": "पार्सल मंगलवार को आया।",
+    "gold_label": "neutral",
+    "category": "Hindi",
+    "language": "Hindi Devanagari",
+    "meaning": "The parcel arrived on Tuesday.",
+    "challenge": "Factual Devanagari text",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": true,
+    "vader_correct": true,
+    "textblob_correct": true
+  },
+  {
+    "id": "DV06",
+    "text": "इस फोन में दो कैमरे हैं।",
+    "gold_label": "neutral",
+    "category": "Hindi",
+    "language": "Hindi Devanagari",
+    "meaning": "This phone has two cameras.",
+    "challenge": "Factual Devanagari text",
+    "vader_label": "neutral",
+    "vader_compound": 0.0,
+    "vader_positive": 0.0,
+    "vader_neutral": 1.0,
+    "vader_negative": 0.0,
+    "textblob_label": "neutral",
+    "textblob_polarity": 0.0,
+    "textblob_subjectivity": 0.0,
+    "textblob_assessments": [],
+    "tools_agree": true,
+    "has_devanagari": true,
+    "vader_correct": true,
+    "textblob_correct": true
+  }
+]

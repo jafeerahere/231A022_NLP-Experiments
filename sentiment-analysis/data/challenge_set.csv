@@ -1,0 +1,37 @@
+id,text,gold_label,category,language,meaning,challenge
+EN01,I love this phone. The camera is excellent!,positive,English,English,Clear praise for a product.,Straightforward polarity
+EN02,The delivery was fast and the staff were helpful.,positive,English,English,Praise for delivery and staff.,Straightforward polarity
+EN03,This product is terrible and a waste of money.,negative,English,English,Strong dissatisfaction with a product.,Straightforward polarity
+EN04,I hate the slow service and rude staff.,negative,English,English,Complaint about service.,Straightforward polarity
+EN05,The package arrived on Tuesday.,neutral,English,English,Factual delivery date without evaluation.,No explicit opinion
+EN06,The phone has a 6 inch screen.,neutral,English,English,Factual screen specification.,No explicit opinion
+NG01,This phone is not good.,negative,Negation,English,Negation reverses good.,Negation scope
+NG02,The service is not bad at all.,positive,Negation,English,Understated approval through negated bad.,Litotes
+NG03,I am not happy with this purchase.,negative,Negation,English,Negated happiness indicates dissatisfaction.,Negation scope
+NG04,I do not hate this movie.,positive,Negation,English,Weak positive stance defined here as absence of dislike.,Negation and label ambiguity
+NG05,The camera is good but the battery is awful.,negative,Negation,English,Final negative clause is treated as the overall judgement.,Contrast and mixed aspects
+NG06,The packaging was ugly but the product is excellent.,positive,Negation,English,Final product praise outweighs packaging criticism.,Contrast and mixed aspects
+SA01,Great! The app crashed again and deleted my work.,negative,Sarcasm,English,Great is sarcastic because work was lost.,Sarcasm and context loss
+SA02,Wonderful service: only three hours of waiting.,negative,Sarcasm,English,Wonderful is sarcastic criticism of waiting.,Sarcasm and context loss
+SA03,I just love paying for a broken product.,negative,Sarcasm,English,Love is sarcastic dissatisfaction with a broken item.,Sarcasm and context loss
+SA04,Fantastic! Another failed payment.,negative,Sarcasm,English,Fantastic is ironic criticism of payment failure.,Sarcasm and context loss
+SA05,Thanks for nothing. My order never arrived.,negative,Sarcasm,English,Thanks is part of a negative idiom.,Pragmatics and idiom
+SA06,Brilliant support. They ignored every message.,negative,Sarcasm,English,Brilliant is sarcastic because support ignored messages.,Sarcasm and context loss
+IN01,The food was simply paisa vasool.,positive,Indian English,English with Hindi phrase,Paisa vasool means worth the money in this context.,Regional expression
+IN02,This movie is full timepass and I enjoyed it.,positive,Indian English,Indian English,Timepass is used approvingly alongside explicit enjoyment.,Regional expression with English cue
+IN03,The service is third class.,negative,Indian English,Indian English,Third class means very poor quality here.,Regional meaning
+IN04,The restaurant is overhyped and the food is tasteless.,negative,Indian English,Indian English,Complaint about restaurant quality.,Domain vocabulary
+IN05,We ordered two dosas and one filter coffee.,neutral,Indian English,Indian English,Factual food order without an evaluation.,Cultural words without opinion
+IN06,The shop opens after the Diwali holiday.,neutral,Indian English,Indian English,Factual schedule mentioning a festival.,Cultural reference without opinion
+HI01,Yeh phone bahut accha hai.,positive,Hinglish,Romanized Hindi,This phone is very good.,Romanization and vocabulary coverage
+HI02,Battery mast hai aur camera zabardast.,positive,Hinglish,Romanized Hindi,The battery is great and the camera is excellent.,Slang and code-switching
+HI03,Delivery bahut bekaar thi.,negative,Hinglish,Romanized Hindi,The delivery was very poor.,Romanization and vocabulary coverage
+HI04,Product accha nahi hai.,negative,Hinglish,Romanized Hindi,The product is not good.,Hindi negation in Latin script
+HI05,Kal maine ek phone kharida.,neutral,Hinglish,Romanized Hindi,I bought a phone yesterday.,Factual Romanized Hindi
+HI06,Order somvaar ko aaya.,neutral,Hinglish,Romanized Hindi,The order arrived on Monday.,Factual Romanized Hindi
+DV01,यह फोन बहुत अच्छा है।,positive,Hindi,Hindi Devanagari,This phone is very good.,Devanagari and vocabulary coverage
+DV02,मुझे यह फिल्म बहुत पसंद आई।,positive,Hindi,Hindi Devanagari,I liked this film very much.,Devanagari and vocabulary coverage
+DV03,यह सामान बहुत खराब है।,negative,Hindi,Hindi Devanagari,This item is very bad.,Devanagari and vocabulary coverage
+DV04,मुझे यह सेवा पसंद नहीं आई।,negative,Hindi,Hindi Devanagari,I did not like this service.,Hindi negation and script
+DV05,पार्सल मंगलवार को आया।,neutral,Hindi,Hindi Devanagari,The parcel arrived on Tuesday.,Factual Devanagari text
+DV06,इस फोन में दो कैमरे हैं।,neutral,Hindi,Hindi Devanagari,This phone has two cameras.,Factual Devanagari text

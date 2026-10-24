@@ -1,0 +1,279 @@
+{
+  "method": "Hindi lexicon + negation",
+  "n": 12,
+  "metrics": {
+    "n": 12,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "per_class": {
+      "negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      }
+    }
+  },
+  "lexicon_sha256": "83dfefa750aa692f1dd38ab3fc5f30a5e53aff694276c5b19d28461dc6183f11",
+  "scope": "Illustrative checks on coursework examples whose vocabulary was available during adapter development; not an independent test set.",
+  "predictions": [
+    {
+      "id": "HI01",
+      "text": "Yeh phone bahut accha hai.",
+      "gold_label": "positive",
+      "category": "Hinglish",
+      "language": "Romanized Hindi",
+      "meaning": "This phone is very good.",
+      "challenge": "Romanization and vocabulary coverage",
+      "hindi_label": "positive",
+      "hindi_score": 0.6956083436402525,
+      "matches": [
+        {
+          "token": "accha",
+          "base_valence": 2.5,
+          "valence": 3.75,
+          "negated": false,
+          "intensified": true,
+          "source": "Hindi lexicon"
+        }
+      ]
+    },
+    {
+      "id": "HI02",
+      "text": "Battery mast hai aur camera zabardast.",
+      "gold_label": "positive",
+      "category": "Hinglish",
+      "language": "Romanized Hindi",
+      "meaning": "The battery is great and the camera is excellent.",
+      "challenge": "Slang and code-switching",
+      "hindi_label": "positive",
+      "hindi_score": 0.8590641805916167,
+      "matches": [
+        {
+          "token": "mast",
+          "base_valence": 3.0,
+          "valence": 3.0,
+          "negated": false,
+          "intensified": false,
+          "source": "Hindi lexicon"
+        },
+        {
+          "token": "zabardast",
+          "base_valence": 3.5,
+          "valence": 3.5,
+          "negated": false,
+          "intensified": false,
+          "source": "Hindi lexicon"
+        }
+      ]
+    },
+    {
+      "id": "HI03",
+      "text": "Delivery bahut bekaar thi.",
+      "gold_label": "negative",
+      "category": "Hinglish",
+      "language": "Romanized Hindi",
+      "meaning": "The delivery was very poor.",
+      "challenge": "Romanization and vocabulary coverage",
+      "hindi_label": "negative",
+      "hindi_score": -0.7579367289598671,
+      "matches": [
+        {
+          "token": "bekaar",
+          "base_valence": -3.0,
+          "valence": -4.5,
+          "negated": false,
+          "intensified": true,
+          "source": "Hindi lexicon"
+        }
+      ]
+    },
+    {
+      "id": "HI04",
+      "text": "Product accha nahi hai.",
+      "gold_label": "negative",
+      "category": "Hinglish",
+      "language": "Romanized Hindi",
+      "meaning": "The product is not good.",
+      "challenge": "Hindi negation in Latin script",
+      "hindi_label": "negative",
+      "hindi_score": -0.43102002306105164,
+      "matches": [
+        {
+          "token": "accha",
+          "base_valence": 2.5,
+          "valence": -1.85,
+          "negated": true,
+          "intensified": false,
+          "source": "Hindi lexicon"
+        }
+      ]
+    },
+    {
+      "id": "HI05",
+      "text": "Kal maine ek phone kharida.",
+      "gold_label": "neutral",
+      "category": "Hinglish",
+      "language": "Romanized Hindi",
+      "meaning": "I bought a phone yesterday.",
+      "challenge": "Factual Romanized Hindi",
+      "hindi_label": "neutral",
+      "hindi_score": 0.0,
+      "matches": []
+    },
+    {
+      "id": "HI06",
+      "text": "Order somvaar ko aaya.",
+      "gold_label": "neutral",
+      "category": "Hinglish",
+      "language": "Romanized Hindi",
+      "meaning": "The order arrived on Monday.",
+      "challenge": "Factual Romanized Hindi",
+      "hindi_label": "neutral",
+      "hindi_score": 0.0,
+      "matches": []
+    },
+    {
+      "id": "DV01",
+      "text": "यह फोन बहुत अच्छा है।",
+      "gold_label": "positive",
+      "category": "Hindi",
+      "language": "Hindi Devanagari",
+      "meaning": "This phone is very good.",
+      "challenge": "Devanagari and vocabulary coverage",
+      "hindi_label": "positive",
+      "hindi_score": 0.6956083436402525,
+      "matches": [
+        {
+          "token": "अच्छा",
+          "base_valence": 2.5,
+          "valence": 3.75,
+          "negated": false,
+          "intensified": true,
+          "source": "Hindi lexicon"
+        }
+      ]
+    },
+    {
+      "id": "DV02",
+      "text": "मुझे यह फिल्म बहुत पसंद आई।",
+      "gold_label": "positive",
+      "category": "Hindi",
+      "language": "Hindi Devanagari",
+      "meaning": "I liked this film very much.",
+      "challenge": "Devanagari and vocabulary coverage",
+      "hindi_label": "positive",
+      "hindi_score": 0.6956083436402525,
+      "matches": [
+        {
+          "token": "पसंद",
+          "base_valence": 2.5,
+          "valence": 3.75,
+          "negated": false,
+          "intensified": true,
+          "source": "Hindi lexicon"
+        }
+      ]
+    },
+    {
+      "id": "DV03",
+      "text": "यह सामान बहुत खराब है।",
+      "gold_label": "negative",
+      "category": "Hindi",
+      "language": "Hindi Devanagari",
+      "meaning": "This item is very bad.",
+      "challenge": "Devanagari and vocabulary coverage",
+      "hindi_label": "negative",
+      "hindi_score": -0.7579367289598671,
+      "matches": [
+        {
+          "token": "खराब",
+          "base_valence": -3.0,
+          "valence": -4.5,
+          "negated": false,
+          "intensified": true,
+          "source": "Hindi lexicon"
+        }
+      ]
+    },
+    {
+      "id": "DV04",
+      "text": "मुझे यह सेवा पसंद नहीं आई।",
+      "gold_label": "negative",
+      "category": "Hindi",
+      "language": "Hindi Devanagari",
+      "meaning": "I did not like this service.",
+      "challenge": "Hindi negation and script",
+      "hindi_label": "negative",
+      "hindi_score": -0.43102002306105164,
+      "matches": [
+        {
+          "token": "पसंद",
+          "base_valence": 2.5,
+          "valence": -1.85,
+          "negated": true,
+          "intensified": false,
+          "source": "Hindi lexicon"
+        }
+      ]
+    },
+    {
+      "id": "DV05",
+      "text": "पार्सल मंगलवार को आया।",
+      "gold_label": "neutral",
+      "category": "Hindi",
+      "language": "Hindi Devanagari",
+      "meaning": "The parcel arrived on Tuesday.",
+      "challenge": "Factual Devanagari text",
+      "hindi_label": "neutral",
+      "hindi_score": 0.0,
+      "matches": []
+    },
+    {
+      "id": "DV06",
+      "text": "इस फोन में दो कैमरे हैं।",
+      "gold_label": "neutral",
+      "category": "Hindi",
+      "language": "Hindi Devanagari",
+      "meaning": "This phone has two cameras.",
+      "challenge": "Factual Devanagari text",
+      "hindi_label": "neutral",
+      "hindi_score": 0.0,
+      "matches": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "run_at_utc": "2026-10-24T15:11:10.781830+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "vaderSentiment": "3.3.2",
+    "textblob": "0.20.1",
+    "streamlit": "1.66.1",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  },
+  "dataset_sha256": "f97d2fff2148304d36c18522b131736c07ed481c2d94b9c0fec8ab67f2ed7764",
+  "sample_count": 36,
+  "threshold": 0.05,
+  "textblob_threshold_origin": "project-defined symmetric cutoff, not an official TextBlob default",
+  "preprocessing": "Outer whitespace stripping only; no translation or language adaptation",
+  "labels": "Project-authored reference labels without independent annotation",
+  "training": "None; distributed English lexicons and rules"
+}
