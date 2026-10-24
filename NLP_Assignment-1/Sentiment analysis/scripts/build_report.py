@@ -241,7 +241,7 @@ def main():
     add(uncertainty)
     add("The app uses synthetic examples rather than scraped Twitter or Facebook data. It combines the original two-tool study with an implemented Hindi sentiment dictionary and negation rules. The Hindi checks use illustrative vocabulary available during development; broader validation requires a new corpus.")
     add("Reproduce the project", "SubLab")
-    add("Use Python 3.12 in the sentiment-analysis directory. Install requirements-dev.txt, then run these commands:")
+    add("Use Python 3.12 in the NLP_Assignment-1/Sentiment analysis directory. Install requirements-dev.txt, then run these commands:")
     for command in ["python -m scripts.evaluate", "python -m scripts.evaluate_hindi", "python -m pytest -q", "python -m scripts.build_notebook", "python -m scripts.build_report", "python -m streamlit run app.py"]:
         add(command, "SmallLab")
     add(f"Verified runtime: Python {provenance['python']}, VADER {provenance['packages']['vaderSentiment']}, TextBlob {provenance['packages']['textblob']}. The provenance JSON records the UTC run time, package versions, threshold and dataset SHA-256.")

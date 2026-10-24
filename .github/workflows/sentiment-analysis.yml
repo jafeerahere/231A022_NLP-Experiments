@@ -1,21 +1,21 @@
 name: Sentiment analysis checks
 on:
   push:
-    paths: ['sentiment-analysis/**', '.github/workflows/sentiment-analysis.yml']
+    paths: ['NLP_Assignment-1/**', '.github/workflows/sentiment-analysis.yml']
   pull_request:
-    paths: ['sentiment-analysis/**', '.github/workflows/sentiment-analysis.yml']
+    paths: ['NLP_Assignment-1/**', '.github/workflows/sentiment-analysis.yml']
 jobs:
   test:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: sentiment-analysis
+        working-directory: "NLP_Assignment-1/Sentiment analysis"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: pip
-          cache-dependency-path: sentiment-analysis/requirements*.txt
+          cache-dependency-path: "NLP_Assignment-1/Sentiment analysis/requirements*.txt"
       - run: python -m pip install -r requirements-dev.txt
       - run: python -m pytest -q

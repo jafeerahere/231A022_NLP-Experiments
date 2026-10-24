@@ -1,4 +1,6 @@
-# Sentiment analysis in context
+# Sentiment analysis
+
+Part of [NLP_Assignment-1](../README.md).
 
 **Rizvi College of Engineering**
 Department of Artificial Intelligence & Data Science
@@ -9,7 +11,7 @@ A working Streamlit lab compares two real NLP tools, VADER and TextBlob, on the 
 
 ## Run the app
 
-Use Python 3.12, the version used for verification. Open a terminal in `sentiment-analysis`:
+Use Python 3.12, the version used for verification. Open a terminal in `NLP_Assignment-1/Sentiment analysis`:
 
 ```powershell
 python -m venv .venv

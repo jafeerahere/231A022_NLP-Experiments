@@ -9,6 +9,7 @@
 Natural Language Processing (CSDO7011)
 
 **ANSARI JAFEERA JAMIL AHMED | UIN: 231A022 | Roll number: 03**
+
 NLP application study | 24 October 2026
 
 ## Aim and scope
